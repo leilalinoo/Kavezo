@@ -1,5 +1,5 @@
 # _Kavezo_
-##| Név  | Feladat |
+| Név  | Feladat |
 | ------------- | ------------- |
 | Ábrahám Leila | létrehozta a git repót  |
 | Papp Nikoletta  | létrehozta a netbeans projektet  |
