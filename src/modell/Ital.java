@@ -1,6 +1,8 @@
 package modell;
 
-
+enum Izesit {
+    CUKOR, TEJ, CITROM
+}
 
 public abstract class Ital {
     

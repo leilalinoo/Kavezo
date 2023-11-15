@@ -1,7 +1,7 @@
 package modell;
 
 public class Kave extends Ital {
-
+    private int cukor;
     private int erosseg;
 
     public Kave(int erosseg) {
