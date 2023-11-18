@@ -10,12 +10,10 @@ abstract public class Ital {
     }
 
     public int izesit(int valasztas) {
-        if(valasztas == 1){
-            plusz();
-        }else if(valasztas == 2){
-            kevesebb();
-        }else{
-            mennyiseg = 2;
+        switch (valasztas) {
+            case 1 -> plusz();
+            case 2 -> kevesebb();
+            default -> mennyiseg = 2;
         }
         return mennyiseg;
     }
