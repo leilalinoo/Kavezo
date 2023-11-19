@@ -1,25 +1,19 @@
 package modell;
-
 public abstract class Ital {
-    int mennyiseg;
-    int valasz;
-     public int izesit(int valasz){
-        switch (valasz) {
-            case 1:
-                novel();
-                break;
-            case 2:
-                kevesebb();
-                break;
-            default:
-                mennyiseg = 2;
-                break;
-        }
-         
-        return mennyiseg;
-     }
 
-    abstract public void novel();
+    public enum IZESITES {
+        CUKOR, TEJ, TEJSZIN
+    }
 
-    abstract public void kevesebb();
+    public enum MAS_IZESITES {
+        CITROM, KARAMEL,CUKOR
+    }
+
+    abstract public void novel(IZESITES izesites);
+
+    abstract public void kevesebb(IZESITES izesites);
+
+    abstract public void novelMas(MAS_IZESITES masIzesites);
+
+    abstract public void kevesebbMas(MAS_IZESITES masIzesites);
 }
