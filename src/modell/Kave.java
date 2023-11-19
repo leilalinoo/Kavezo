@@ -78,4 +78,16 @@ package modell;
     public void kevesebbMas(MAS_IZESITES masIzesites) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
+  
+
+    @Override
+    public void novelCsoki(Csoki_IZESITES csokiizesites) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public void kevesebbCsoki(Csoki_IZESITES csokiizesites) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
   }
