@@ -2,7 +2,7 @@ package modell;
 
     
   public class Kave extends Ital {
-     int erosseg;
+    int erosseg;
     int cmenny;
     int tejmenny;
     int tszinmenny;
