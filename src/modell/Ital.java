@@ -1,15 +1,26 @@
 package modell;
 
-enum Izesit {
-    CUKOR, TEJ, CITROM
+enum KVIzesit {
+    CUKOR, TEJ
+}
+
+enum TEAIzesites {
+    CITROM, CUKOR
+}
+
+enum csokiIzesit {
+    CUKOR,FEHERCSOKI, TEJCSOKI
 }
 
 public abstract class Ital {
-    
-    
- public abstract void izesit();
 
-   public abstract  void plusz();
+    public abstract void KVizesit(KVIzesit kave);
 
- public abstract    void kevesebb();
+    public abstract void TEAizesit(TEAIzesites tea);
+
+    public abstract void CSOKIizesit(csokiIzesit csoki);
+
+    public abstract void plusz();
+
+    public abstract void kevesebb();
 }
